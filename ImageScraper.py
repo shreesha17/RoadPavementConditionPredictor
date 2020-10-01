@@ -85,7 +85,7 @@ def main():
     parser = argparse.ArgumentParser(description='Scrape Google images')
     parser.add_argument('-s', '--search', default='alligator cracking', type=str, help='search term')
     parser.add_argument('-n', '--num_images', default=200, type=int, help='num images to save')
-    parser.add_argument('-d', '--directory', default='//Users//prajna//Desktop//extra//alli', type=str, help='save directory')
+    parser.add_argument('-d', '--directory', default='//Users//shreesha//Desktop//extra//alli', type=str, help='save directory')
     args = parser.parse_args()
     run(args.search, args.directory, args.num_images)
 
